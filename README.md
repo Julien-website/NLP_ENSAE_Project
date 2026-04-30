@@ -44,10 +44,9 @@ We manually annotated ~1,000 excerpts from the **1993 French legislative electio
 ```
 notebooks/
 ├── Data exploration and models training.ipynb   # EDA, features, baselines
-├── Experiments of Henri.ipynb                   # LLM annotation pipeline
 └── out of sample analysis.ipynb                 # 1973 & 1981 out-of-sample evaluation
 
-annotations finales/
+annotations finales/                             #manual annotations 
 ├── annotations Henri.xlsx
 ├── annotations JL.xlsx
 ├── annotations Julien.xlsx
@@ -55,7 +54,7 @@ annotations finales/
 ├── annotations_1973.xlsx
 ├── annotations_1981.xlsx
 └── test de Henri/
-    └── annotations_llm.xlsx                     # LLM-generated annotations (~2000 texts)
+    └── annotations_llm.xlsx                     # LLM-generated annotations, not used in the project
 
 legislatives/                                    # ~6000 raw legislative documents (1993)
 ```
